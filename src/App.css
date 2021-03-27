@@ -1,0 +1,19 @@
+.body {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+}
+
+.menu {
+  display: flex;
+}
+
+nav > a {
+  display: block;
+  padding: 10px 15px;
+  font-size: 120%;
+  text-decoration: none;
+  border-bottom: solid 1px #eee;
+  color: rgb(0, 0, 238);
+  margin-right: 100px;
+}
