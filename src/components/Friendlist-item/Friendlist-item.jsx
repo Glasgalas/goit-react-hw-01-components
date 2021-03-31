@@ -13,14 +13,6 @@ const FriendListItem = ({ avatar, name, isOnline }) => (
   </li>
 );
 
-const FriendList = ({ friends }) => (
-  <ul className={styles.friendList}>
-    {friends.map(friend => (
-      <FriendListItem key={friend.id} {...friend} />
-    ))}
-  </ul>
-);
-
 FriendListItem.defaultProps = {
   avatar: defaultImage,
 };
@@ -30,8 +22,4 @@ FriendListItem.propTypes = {
   name: PropTypes.string.isRequired,
 };
 
-FriendList.propTypes = {
-  friends: PropTypes.object.isRequired,
-};
-
-export default FriendList;
+export default FriendListItem;

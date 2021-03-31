@@ -3,7 +3,7 @@ import { Router, Link } from '@reach/router';
 
 import Profile from '../Profile/Profile';
 import Statistics from '../Statistics/Statistics';
-import FriendList from '../Friendlist/Friendlist-item';
+import FriendList from '../Friendlist/Friendlist';
 import TransactionTable from '../Transactions/Transaction';
 
 import user from '../../assets/user.json';
